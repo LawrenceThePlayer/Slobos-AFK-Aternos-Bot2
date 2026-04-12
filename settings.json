@@ -29,7 +29,7 @@
     "chat-messages": {
       "enabled": true,
       "repeat": false,
-      "repeat-delay": 5,
+      "repeat-delay": 100,
       "messages": [
         "/server lobby"
       ]
