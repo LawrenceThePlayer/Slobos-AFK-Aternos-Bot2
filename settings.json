@@ -3,7 +3,7 @@
   "bot-account": {
     "username": "GUARDIANLOBBY",
     "password": "",
-    "type": "true"
+    "type": "online"
   },
   "server": {
     "ip": "flyhighsmpvelocity.mcsh.io",
@@ -29,11 +29,11 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 5,
       "messages": [
         "/server lobby",
-        "Subscribe to LawrencePH",
-        "DONT USE CHEAT OR XRAY OR ELSE!"
+        "",
+        ""
       ]
     },
     "chat-log": true,
