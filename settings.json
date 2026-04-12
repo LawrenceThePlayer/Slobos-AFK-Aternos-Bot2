@@ -28,8 +28,8 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": false,
-      "repeat-delay": 1000,
+      "repeat": true,
+      "repeat-delay": 10000000,
       "messages": [
         "/server lobby"
       ]
