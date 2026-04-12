@@ -6,8 +6,8 @@
     "type": "true"
   },
   "server": {
-    "ip": "flyhighsmp.mcsh.io",
-    "port": 25565,
+    "ip": "flyhighsmpvelocity.mcsh.io",
+    "port": 19321,
     "version": "",
     "try-creative": false
   },
@@ -31,9 +31,8 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a monitoring bot",
-        "Subscribe to LawrencePH",
-        "DONT USE CHEAT OR XRAY OR ELSE!"
+        "",
+        ""
       ]
     },
     "chat-log": true,
