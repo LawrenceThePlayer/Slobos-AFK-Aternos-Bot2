@@ -28,11 +28,10 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": true,
+      "repeat": false,
       "repeat-delay": 250,
       "messages": [
-        "/server lobby", 
-        "Hi"
+        "/server lobby"
       ]
     },
     "chat-log": true,
