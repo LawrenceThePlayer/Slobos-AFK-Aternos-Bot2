@@ -1,8 +1,8 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "GUARDIANLOBBY",
-    "password": "1.21.1",
+    "username": "GUARDIANSURVIVAL",
+    "password": "",
     "type": "online"
   },
   "server": {
@@ -29,9 +29,9 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 10000000,
+      "repeat-delay": 5,
       "messages": [
-        "/server lobby"
+        ""
       ]
     },
     "chat-log": true,
