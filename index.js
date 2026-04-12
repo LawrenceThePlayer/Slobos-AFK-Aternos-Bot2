@@ -1231,7 +1231,7 @@ bot.once("spawn", () => {
   setTimeout(() => {
     if (!transferred) {
       transferred = true;
-      bot.chat("/server lobby");
+      bot.chat("/lobbysv");
     }
   }, 3000);
 });
