@@ -28,10 +28,12 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": false,
+      "repeat": true,
       "repeat-delay": 250,
       "messages": [
-        ""
+        "IM GUARD", 
+        "IM NOT GUARD?", 
+        "WHAT ARE YOU DOING HERE!" 
       ]
     },
     "chat-log": true,
