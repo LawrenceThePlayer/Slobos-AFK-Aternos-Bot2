@@ -1227,13 +1227,11 @@ function createBot() {
 
     bot.loadPlugin(pathfinder);
 
-    bot.loadPlugin(pathfinder);
-
 bot.once("spawn", () => {
   setTimeout(() => {
     if (!transferred) {
       transferred = true;
-      bot.chat("/server survival");
+      bot.chat("/server lobby");
     }
   }, 3000);
 });
