@@ -9,6 +9,8 @@ const express = require("express");
 const http = require("http");
 const https = require("https");
 
+let transferred = false;
+
 // ============================================================
 // EXPRESS SERVER - Keep Render/Aternos alive
 // ============================================================
@@ -1224,6 +1226,17 @@ function createBot() {
     });
 
     bot.loadPlugin(pathfinder);
+
+    bot.loadPlugin(pathfinder);
+
+bot.once("spawn", () => {
+  setTimeout(() => {
+    if (!transferred) {
+      transferred = true;
+      bot.chat("/server survival");
+    }
+  }, 3000);
+});
 
     // FIX: connection timeout - end the old bot before reconnecting to avoid ghost bots
     clearBotTimeouts();
