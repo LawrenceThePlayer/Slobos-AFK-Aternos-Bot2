@@ -31,7 +31,8 @@
       "repeat": true,
       "repeat-delay": 250,
       "messages": [
-        "/server lobby"
+        "/server lobby", 
+        "Hi"
       ]
     },
     "chat-log": true,
